@@ -1,9 +1,9 @@
 variable "key_name" {
-  default = "terraform-key"
+  default = "devopsdemo"
 }
 
 variable "pvt_key_name" {
-  default = "/root/.ssh/devops-demo.pem"
+  default = "/root/.ssh/devopsdemo.pem"
 }
 
 
