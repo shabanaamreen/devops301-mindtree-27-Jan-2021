@@ -3,12 +3,12 @@ variable "key_name" {
 }
 
 variable "pvt_key_name" {
-  default = "/root/.ssh/terraform-pvt-key.pem"
+  default = "/root/.ssh/devops-demo.pem"
 }
 
 
 variable "sg_id" {
-  default = "sg-0d3c28ab8c6633258"
+  default = "sg-0f5f51520481d41b4"
 }
 
 variable "region" {
